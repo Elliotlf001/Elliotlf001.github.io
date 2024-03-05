@@ -1,7 +1,4 @@
-var siteWidth = 100;
-var scale = siteWidth/screen.width;
-
-document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+console.log(window.innerWidth)
 
 
 
