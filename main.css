@@ -13,6 +13,6 @@ h2, p1, p2, label, input {
 }
 
 input {
-	width: 50%;
-	height: 10%;
+	width: 10vw;
+	height: 1vw;
 }
