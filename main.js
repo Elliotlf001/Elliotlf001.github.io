@@ -1,3 +1,13 @@
+var siteWidth = 480;
+var scale = screen.width /siteWidth;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+
+
+
+
+
+
 function senddata(){
 	var form1_email = document.querySelector("input[id=email]");
 	var form1_pwd = document.querySelector("input[id=pwd]");
