@@ -10,7 +10,8 @@
 		var max1=1000;
 		while (true){
 			var x=Math.floor(Math.random() * (max - min + 1)) + min;
-			var y=Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
+			var width=Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
+			var height=Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
 			window.open("https://Elliotlf001.github.io/rep.html", x ,`width=100,height=100,top=${y},left=${y}`);
 			window.moveBy(y,y);
 			document.write(x);
