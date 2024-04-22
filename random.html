@@ -11,10 +11,13 @@
 		var min1=10;
 		//var max1=4000;
 
+		function sleep(ms) {
+    		return new Promise(resolve => setTimeout(resolve, ms));
+		}
 		while (true){
 			var x=Math.floor(Math.random() * (max - min + 1)) + min;
 			document.write(x);
-			pause(1);
+			await sleep(1000);
 		}
 	</script>
     </body>
