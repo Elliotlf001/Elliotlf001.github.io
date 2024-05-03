@@ -9,9 +9,11 @@
 		var max=10000000;
 		var min=1;
 		var min1=10;
+		var total=0
 		//var max1=4000;
 
-		while (true){
+		while (total<10){
+			total++;
 			var x=Math.floor(Math.random() * (max - min + 1)) + min;
 			var width=Math.floor(Math.random() * (h - min1 + 1)) + min1;
 			var height=Math.floor(Math.random() * (w - min1 + 1)) + min1;
